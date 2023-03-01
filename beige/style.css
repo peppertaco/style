@@ -529,6 +529,10 @@ input {
     cursor: pointer;
     color:#ffffffaa;
 }
+#api_button_openai{
+    cursor: pointer;
+    color:#ffffffaa;
+}
 #api_loading{
     width: 25px;
     height: 25px;
@@ -540,6 +544,10 @@ input {
     height: 25px;
     display: none;
     
+}
+#api_button_openai{
+    cursor: pointer;
+    color:#ffffffaa;
 }
 
 /* RossAscends: doubling the API status/form CSS to place it on bottom below SHELD form*/
@@ -1132,6 +1140,12 @@ select {
     outline: none;
     border: none;
 }
+#settings_perset_openai{
+    width:284px;
+    margin-left: 10px;
+    margin-bottom: 35px;
+    color: #ffffff9d;
+}
 
 
 .option_select_right_menu{
@@ -1183,6 +1197,10 @@ select {
     margin-bottom: 20px;
 }
 #range_block_novel input{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#range_block_openai input{
     margin-left: 10px;
     margin-bottom: 20px;
 }
